@@ -1,0 +1,60 @@
+{
+	"objects": [
+
+		{
+			"id": "1",
+			"name": "HP",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus convallis mi nec commodo. Nulla eu magna convallis, pharetra nisi id, malesuada nunc. Quisque eu ipsum at nibh consequat rhoncus. Maecenas at erat quis turpis convallis convallis. Mauris vitae lectus nec ipsum aliquam placerat. Sed ac quam semper, pretium leo ut, lacinia nulla. Nulla vitae nibh lectus.",
+			"is_locked": "true",
+			"image_url": "https://raw.githubusercontent.com/alejandrorey96/LoreJuego/main/data/images/objects/hp.jpg?token=GHSAT0AAAAAABTGK4JMOGXZP3NURGID6MNKYS6N4HQ"
+		},
+
+		{
+			"id": "2",
+			"name": "Attack",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus convallis mi nec commodo. Nulla eu magna convallis, pharetra nisi id, malesuada nunc. Quisque eu ipsum at nibh consequat rhoncus. Maecenas at erat quis turpis convallis convallis. Mauris vitae lectus nec ipsum aliquam placerat. Sed ac quam semper, pretium leo ut, lacinia nulla. Nulla vitae nibh lectus.",
+			"is_locked": "true",
+			"image_url": "https://raw.githubusercontent.com/alejandrorey96/LoreJuego/main/data/images/objects/attk.jpg?token=GHSAT0AAAAAABTGK4JMXNW34776UF6YTLOYYS6N37Q"
+		},
+
+		{
+			"id": "3",
+			"name": "Defense",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus convallis mi nec commodo. Nulla eu magna convallis, pharetra nisi id, malesuada nunc. Quisque eu ipsum at nibh consequat rhoncus. Maecenas at erat quis turpis convallis convallis. Mauris vitae lectus nec ipsum aliquam placerat. Sed ac quam semper, pretium leo ut, lacinia nulla. Nulla vitae nibh lectus.",
+			"in_locked": "true",
+			"image_url": "https://raw.githubusercontent.com/alejandrorey96/LoreJuego/main/data/images/objects/def.jpg?token=GHSAT0AAAAAABTGK4JNGZHMBOLPS6BXXBOWYS6N4OQ"
+		},
+
+		{
+			"id": "4",
+			"name": "Cooldown",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus convallis mi nec commodo. Nulla eu magna convallis, pharetra nisi id, malesuada nunc. Quisque eu ipsum at nibh consequat rhoncus. Maecenas at erat quis turpis convallis convallis. Mauris vitae lectus nec ipsum aliquam placerat. Sed ac quam semper, pretium leo ut, lacinia nulla. Nulla vitae nibh lectus.",
+			"in_locked": "true",
+			"image_url": "https://raw.githubusercontent.com/alejandrorey96/LoreJuego/main/data/images/objects/cooldown.jpg?token=GHSAT0AAAAAABTGK4JNKQJV7ZVBCADLT7HWYS6N4WA"
+		},
+
+		{
+			"id": "5",
+			"name": "Range",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus convallis mi nec commodo. Nulla eu magna convallis, pharetra nisi id, malesuada nunc. Quisque eu ipsum at nibh consequat rhoncus. Maecenas at erat quis turpis convallis convallis. Mauris vitae lectus nec ipsum aliquam placerat. Sed ac quam semper, pretium leo ut, lacinia nulla. Nulla vitae nibh lectus.",
+			"in_locked": "true",
+			"image_url": "https://raw.githubusercontent.com/alejandrorey96/LoreJuego/main/data/images/objects/range.jpg?token=GHSAT0AAAAAABTGK4JNEPLECREJQDFR4GLKYS6N44Q"
+		},
+
+		{
+			"id": "6",
+			"name": "Cost",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus convallis mi nec commodo. Nulla eu magna convallis, pharetra nisi id, malesuada nunc. Quisque eu ipsum at nibh consequat rhoncus. Maecenas at erat quis turpis convallis convallis. Mauris vitae lectus nec ipsum aliquam placerat. Sed ac quam semper, pretium leo ut, lacinia nulla. Nulla vitae nibh lectus.",
+			"in_locked": "true",
+			"image_url": "https://raw.githubusercontent.com/alejandrorey96/LoreJuego/main/data/images/objects/cost.jpg?token=GHSAT0AAAAAABTGK4JN4D22QAM752ID3ZKKYS6N5EA"
+		},
+
+		{
+			"id": "7",
+			"name": "Boots",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus convallis mi nec commodo. Nulla eu magna convallis, pharetra nisi id, malesuada nunc. Quisque eu ipsum at nibh consequat rhoncus. Maecenas at erat quis turpis convallis convallis. Mauris vitae lectus nec ipsum aliquam placerat. Sed ac quam semper, pretium leo ut, lacinia nulla. Nulla vitae nibh lectus.",
+			"in_locked": "true",
+			"image_url": "https://raw.githubusercontent.com/alejandrorey96/LoreJuego/main/data/images/objects/boots.jpg?token=GHSAT0AAAAAABTGK4JNKO55Y7QRA556D5MYYS6N5KQ"
+		}
+	]
+}

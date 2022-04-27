@@ -1,0 +1,68 @@
+{
+	"planets": [
+
+		{
+			"id": "1",
+			"name": "Steampunk",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus convallis mi nec commodo. Nulla eu magna convallis, pharetra nisi id, malesuada nunc. Quisque eu ipsum at nibh consequat rhoncus. Maecenas at erat quis turpis convallis convallis. Mauris vitae lectus nec ipsum aliquam placerat. Sed ac quam semper, pretium leo ut, lacinia nulla. Nulla vitae nibh lectus.",
+			"is_locked": "true",
+			"image_url": "https://raw.githubusercontent.com/alejandrorey96/LoreJuego/main/data/images/planets/steampunk.jpg?token=GHSAT0AAAAAABTGK4JMGVISJ4YLRPPXTMA6YS6N54A"
+		},
+
+		{
+			"id": "2",
+			"name": "Horizon",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus convallis mi nec commodo. Nulla eu magna convallis, pharetra nisi id, malesuada nunc. Quisque eu ipsum at nibh consequat rhoncus. Maecenas at erat quis turpis convallis convallis. Mauris vitae lectus nec ipsum aliquam placerat. Sed ac quam semper, pretium leo ut, lacinia nulla. Nulla vitae nibh lectus.",
+			"is_locked": "true",
+			"image_url": "https://raw.githubusercontent.com/alejandrorey96/LoreJuego/main/data/images/planets/horizon.jpg?token=GHSAT0AAAAAABTGK4JM3V3EWT3VELPUUJPAYS6N6CQ"
+		},
+
+		{
+			"id": "3",
+			"name": "Ocean",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus convallis mi nec commodo. Nulla eu magna convallis, pharetra nisi id, malesuada nunc. Quisque eu ipsum at nibh consequat rhoncus. Maecenas at erat quis turpis convallis convallis. Mauris vitae lectus nec ipsum aliquam placerat. Sed ac quam semper, pretium leo ut, lacinia nulla. Nulla vitae nibh lectus.",
+			"in_locked": "true",
+			"image_url": "https://raw.githubusercontent.com/alejandrorey96/LoreJuego/main/data/images/planets/ocean.jpg?token=GHSAT0AAAAAABTGK4JNKJFZRG4324VOJDCEYS6N6IA"
+		},
+
+		{
+			"id": "4",
+			"name": "Space",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus convallis mi nec commodo. Nulla eu magna convallis, pharetra nisi id, malesuada nunc. Quisque eu ipsum at nibh consequat rhoncus. Maecenas at erat quis turpis convallis convallis. Mauris vitae lectus nec ipsum aliquam placerat. Sed ac quam semper, pretium leo ut, lacinia nulla. Nulla vitae nibh lectus.",
+			"in_locked": "true",
+			"image_url": "https://raw.githubusercontent.com/alejandrorey96/LoreJuego/main/data/images/planets/space.jpg?token=GHSAT0AAAAAABTGK4JN6ZKPCBV4EWP6AHWEYS6N6TA"
+		},
+
+		{
+			"id": "5",
+			"name": "Blade",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus convallis mi nec commodo. Nulla eu magna convallis, pharetra nisi id, malesuada nunc. Quisque eu ipsum at nibh consequat rhoncus. Maecenas at erat quis turpis convallis convallis. Mauris vitae lectus nec ipsum aliquam placerat. Sed ac quam semper, pretium leo ut, lacinia nulla. Nulla vitae nibh lectus.",
+			"in_locked": "true",
+			"image_url": "https://raw.githubusercontent.com/alejandrorey96/LoreJuego/main/data/images/planets/blade.jpg?token=GHSAT0AAAAAABTGK4JN5FPQYJL23F6JJJE6YS6N62Q"
+		},
+
+		{
+			"id": "6",
+			"name": "Rythm",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus convallis mi nec commodo. Nulla eu magna convallis, pharetra nisi id, malesuada nunc. Quisque eu ipsum at nibh consequat rhoncus. Maecenas at erat quis turpis convallis convallis. Mauris vitae lectus nec ipsum aliquam placerat. Sed ac quam semper, pretium leo ut, lacinia nulla. Nulla vitae nibh lectus.",
+			"in_locked": "true",
+			"image_url": "https://raw.githubusercontent.com/alejandrorey96/LoreJuego/main/data/images/planets/rythm.jpg?token=GHSAT0AAAAAABTGK4JMG3GJEPDHXKIN7YZGYS6N67Q"
+		},
+
+		{
+			"id": "7",
+			"name": "Jungle",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus convallis mi nec commodo. Nulla eu magna convallis, pharetra nisi id, malesuada nunc. Quisque eu ipsum at nibh consequat rhoncus. Maecenas at erat quis turpis convallis convallis. Mauris vitae lectus nec ipsum aliquam placerat. Sed ac quam semper, pretium leo ut, lacinia nulla. Nulla vitae nibh lectus.",
+			"in_locked": "true",
+			"image_url": "https://raw.githubusercontent.com/alejandrorey96/LoreJuego/main/data/images/planets/jungle.jpg?token=GHSAT0AAAAAABTGK4JMYIH7WOOIQCWZROUOYS6N7GA"
+		},
+
+		{
+			"id": "8",
+			"name": "Sentient",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus convallis mi nec commodo. Nulla eu magna convallis, pharetra nisi id, malesuada nunc. Quisque eu ipsum at nibh consequat rhoncus. Maecenas at erat quis turpis convallis convallis. Mauris vitae lectus nec ipsum aliquam placerat. Sed ac quam semper, pretium leo ut, lacinia nulla. Nulla vitae nibh lectus.",
+			"in_locked": "true",
+			"image_url": "https://raw.githubusercontent.com/alejandrorey96/LoreJuego/main/data/images/planets/sentient.jpg?token=GHSAT0AAAAAABTGK4JNG3ZQNKZGMH57ANPKYS6N7NQ"
+		}
+	]
+}

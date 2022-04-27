@@ -1,0 +1,58 @@
+{
+	"abilities": [
+
+		{
+			"id": "1",
+			"name": "Rapid Fire",
+			"character": "Isla",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus convallis mi nec commodo. Nulla eu magna convallis, pharetra nisi id, malesuada nunc. Quisque eu ipsum at nibh consequat rhoncus. Maecenas at erat quis turpis convallis convallis. Mauris vitae lectus nec ipsum aliquam placerat. Sed ac quam semper, pretium leo ut, lacinia nulla. Nulla vitae nibh lectus.",
+			"is_locked": "true",
+			"image_url": "https://raw.githubusercontent.com/alejandrorey96/LoreJuego/main/data/images/abilities/rapidFire.png?token=GHSAT0AAAAAABTGK4JNMGL2XI2T5TDD3ZYAYS6NQEQ"
+		},
+
+		{
+			"id": "2",
+			"name": "Dash",
+			"character": "Dash",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus convallis mi nec commodo. Nulla eu magna convallis, pharetra nisi id, malesuada nunc. Quisque eu ipsum at nibh consequat rhoncus. Maecenas at erat quis turpis convallis convallis. Mauris vitae lectus nec ipsum aliquam placerat. Sed ac quam semper, pretium leo ut, lacinia nulla. Nulla vitae nibh lectus.",
+			"is_locked": "true",
+			"image_url": "https://raw.githubusercontent.com/alejandrorey96/LoreJuego/main/data/images/abilities/dash.jpg?token=GHSAT0AAAAAABTGK4JNW24SJURGKF5635MEYS6NOSQ"
+		},
+
+		{
+			"id": "3",
+			"name": "Arrow Rain",
+			"character": "Hwacha",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus convallis mi nec commodo. Nulla eu magna convallis, pharetra nisi id, malesuada nunc. Quisque eu ipsum at nibh consequat rhoncus. Maecenas at erat quis turpis convallis convallis. Mauris vitae lectus nec ipsum aliquam placerat. Sed ac quam semper, pretium leo ut, lacinia nulla. Nulla vitae nibh lectus.",
+			"in_locked": "true",
+			"image_url": "https://raw.githubusercontent.com/alejandrorey96/LoreJuego/main/data/images/abilities/arrowRain.png?token=GHSAT0AAAAAABTGK4JNOB2TWZRWDZ6CTCIWYS6NNTQ"
+		},
+
+		{
+			"id": "4",
+			"name": "Protect",
+			"character": "Miles",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus convallis mi nec commodo. Nulla eu magna convallis, pharetra nisi id, malesuada nunc. Quisque eu ipsum at nibh consequat rhoncus. Maecenas at erat quis turpis convallis convallis. Mauris vitae lectus nec ipsum aliquam placerat. Sed ac quam semper, pretium leo ut, lacinia nulla. Nulla vitae nibh lectus.",
+			"in_locked": "true",
+			"image_url": "https://raw.githubusercontent.com/alejandrorey96/LoreJuego/main/data/images/abilities/protect.png?token=GHSAT0AAAAAABTGK4JMPCF23KDZDSVOJHPWYS6NP5A"
+		},
+
+		{
+			"id": "5",
+			"name": "Fly",
+			"character": "Tucan",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus convallis mi nec commodo. Nulla eu magna convallis, pharetra nisi id, malesuada nunc. Quisque eu ipsum at nibh consequat rhoncus. Maecenas at erat quis turpis convallis convallis. Mauris vitae lectus nec ipsum aliquam placerat. Sed ac quam semper, pretium leo ut, lacinia nulla. Nulla vitae nibh lectus.",
+			"in_locked": "true",
+			"image_url": "https://raw.githubusercontent.com/alejandrorey96/LoreJuego/main/data/images/abilities/fly.jpg?token=GHSAT0AAAAAABTGK4JNR4GA62T6KLAA56BKYS6NO5Q"
+		},
+
+		{
+			"id": "6",
+			"name": "Freeze",
+			"character": "",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus convallis mi nec commodo. Nulla eu magna convallis, pharetra nisi id, malesuada nunc. Quisque eu ipsum at nibh consequat rhoncus. Maecenas at erat quis turpis convallis convallis. Mauris vitae lectus nec ipsum aliquam placerat. Sed ac quam semper, pretium leo ut, lacinia nulla. Nulla vitae nibh lectus.",
+			"in_locked": "true",
+			"image_url": "https://raw.githubusercontent.com/alejandrorey96/LoreJuego/main/data/images/abilities/freeze.jpg?token=GHSAT0AAAAAABTGK4JNVR36PZH32SDECPJ6YS6NPIA"
+		}
+	]
+}

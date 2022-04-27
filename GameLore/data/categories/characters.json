@@ -1,0 +1,94 @@
+{
+	"characters": [
+
+		{
+			"id": "1",
+			"name": "Cornut",
+			"arena": "1",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus convallis mi nec commodo. Nulla eu magna convallis, pharetra nisi id, malesuada nunc. Quisque eu ipsum at nibh consequat rhoncus. Maecenas at erat quis turpis convallis convallis. Mauris vitae lectus nec ipsum aliquam placerat. Sed ac quam semper, pretium leo ut, lacinia nulla. Nulla vitae nibh lectus.",
+			"is_locked": "true",
+			"image_url": "https://raw.githubusercontent.com/alejandrorey96/LoreJuego/main/data/images/characters/cornut.jpg?token=GHSAT0AAAAAABTGK4JNVTXK7WSSJYX47GSGYS6NQ6A"
+		},
+
+		{
+			"id": "2",
+			"name": "Isla",
+			"arena": "1",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus convallis mi nec commodo. Nulla eu magna convallis, pharetra nisi id, malesuada nunc. Quisque eu ipsum at nibh consequat rhoncus. Maecenas at erat quis turpis convallis convallis. Mauris vitae lectus nec ipsum aliquam placerat. Sed ac quam semper, pretium leo ut, lacinia nulla. Nulla vitae nibh lectus.",
+			"is_locked": "true",
+			"image_url": "https://raw.githubusercontent.com/alejandrorey96/LoreJuego/main/data/images/characters/isla.jpg?token=GHSAT0AAAAAABTGK4JN3HTEUI4MEPSSUTHCYS6NRFA"
+		},
+
+		{
+			"id": "3",
+			"name": "Airstrike",
+			"arena": "1",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus convallis mi nec commodo. Nulla eu magna convallis, pharetra nisi id, malesuada nunc. Quisque eu ipsum at nibh consequat rhoncus. Maecenas at erat quis turpis convallis convallis. Mauris vitae lectus nec ipsum aliquam placerat. Sed ac quam semper, pretium leo ut, lacinia nulla. Nulla vitae nibh lectus.",
+			"in_locked": "true",
+			"image_url": "https://raw.githubusercontent.com/alejandrorey96/LoreJuego/main/data/images/characters/airstirke.jpg?token=GHSAT0AAAAAABTGK4JMWY5XAZ3KS7CRG5JSYS6NSAA"
+		},
+
+		{
+			"id": "4",
+			"name": "Dash",
+			"arena": "5",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus convallis mi nec commodo. Nulla eu magna convallis, pharetra nisi id, malesuada nunc. Quisque eu ipsum at nibh consequat rhoncus. Maecenas at erat quis turpis convallis convallis. Mauris vitae lectus nec ipsum aliquam placerat. Sed ac quam semper, pretium leo ut, lacinia nulla. Nulla vitae nibh lectus.",
+			"in_locked": "true",
+			"image_url": "https://raw.githubusercontent.com/alejandrorey96/LoreJuego/main/data/images/characters/dash.jpg?token=GHSAT0AAAAAABTGK4JN32ZUUJHBCOXOQWF6YS6NSJA"
+		},
+
+		{
+			"id": "5",
+			"name": "Cannon",
+			"arena": "2",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus convallis mi nec commodo. Nulla eu magna convallis, pharetra nisi id, malesuada nunc. Quisque eu ipsum at nibh consequat rhoncus. Maecenas at erat quis turpis convallis convallis. Mauris vitae lectus nec ipsum aliquam placerat. Sed ac quam semper, pretium leo ut, lacinia nulla. Nulla vitae nibh lectus.",
+			"in_locked": "true",
+			"image_url": "https://raw.githubusercontent.com/alejandrorey96/LoreJuego/main/data/images/characters/cannon.jpg?token=GHSAT0AAAAAABTGK4JMXP4GHLMWVJL3M7YYYS6NSPA"
+		},
+
+		{
+			"id": "6",
+			"name": "Droids",
+			"arena": "3",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus convallis mi nec commodo. Nulla eu magna convallis, pharetra nisi id, malesuada nunc. Quisque eu ipsum at nibh consequat rhoncus. Maecenas at erat quis turpis convallis convallis. Mauris vitae lectus nec ipsum aliquam placerat. Sed ac quam semper, pretium leo ut, lacinia nulla. Nulla vitae nibh lectus.",
+			"in_locked": "true",
+			"image_url": "https://raw.githubusercontent.com/alejandrorey96/LoreJuego/main/data/images/characters/droids.jpg?token=GHSAT0AAAAAABTGK4JM5LEN3MCBVHHYSFNSYS6NSXQ"
+		},
+
+		{
+			"id": "7",
+			"name": "Miles",
+			"arena": "1",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus convallis mi nec commodo. Nulla eu magna convallis, pharetra nisi id, malesuada nunc. Quisque eu ipsum at nibh consequat rhoncus. Maecenas at erat quis turpis convallis convallis. Mauris vitae lectus nec ipsum aliquam placerat. Sed ac quam semper, pretium leo ut, lacinia nulla. Nulla vitae nibh lectus.",
+			"in_locked": "true",
+			"image_url": "https://raw.githubusercontent.com/alejandrorey96/LoreJuego/main/data/images/characters/miles.jpg?token=GHSAT0AAAAAABTGK4JMLUFRBAR44B4UPFWYYS6NT6Q"
+		},
+
+		{
+			"id": "8",
+			"name": "Hwacha",
+			"arena": "1",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus convallis mi nec commodo. Nulla eu magna convallis, pharetra nisi id, malesuada nunc. Quisque eu ipsum at nibh consequat rhoncus. Maecenas at erat quis turpis convallis convallis. Mauris vitae lectus nec ipsum aliquam placerat. Sed ac quam semper, pretium leo ut, lacinia nulla. Nulla vitae nibh lectus.",
+			"in_locked": "true",
+			"image_url": "https://raw.githubusercontent.com/alejandrorey96/LoreJuego/main/data/images/characters/hwacha.jpg?token=GHSAT0AAAAAABTGK4JMVVDZP2476QXLCPQGYS6NUGA"
+		},
+
+		{
+			"id": "9",
+			"name": "Tucan",
+			"arena": "3",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus convallis mi nec commodo. Nulla eu magna convallis, pharetra nisi id, malesuada nunc. Quisque eu ipsum at nibh consequat rhoncus. Maecenas at erat quis turpis convallis convallis. Mauris vitae lectus nec ipsum aliquam placerat. Sed ac quam semper, pretium leo ut, lacinia nulla. Nulla vitae nibh lectus.",
+			"in_locked": "true",
+			"image_url": "https://raw.githubusercontent.com/alejandrorey96/LoreJuego/main/data/images/characters/tucan.jpg?token=GHSAT0AAAAAABTGK4JMIVS47LTQ4ADNSUQ2YS6NVVQ"
+		},
+
+		{
+			"id": "10",
+			"name": "Skelie",
+			"arena": "2",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus convallis mi nec commodo. Nulla eu magna convallis, pharetra nisi id, malesuada nunc. Quisque eu ipsum at nibh consequat rhoncus. Maecenas at erat quis turpis convallis convallis. Mauris vitae lectus nec ipsum aliquam placerat. Sed ac quam semper, pretium leo ut, lacinia nulla. Nulla vitae nibh lectus.",
+			"in_locked": "true",
+			"image_url": "https://raw.githubusercontent.com/alejandrorey96/LoreJuego/main/data/images/characters/skelie.jpg?token=GHSAT0AAAAAABTGK4JMCVENAJX7SBPPKI6MYS6NV2Q"
+		}
+	]
+}
