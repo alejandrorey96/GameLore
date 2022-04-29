@@ -7,7 +7,7 @@
 			"arena": "1",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus convallis mi nec commodo. Nulla eu magna convallis, pharetra nisi id, malesuada nunc. Quisque eu ipsum at nibh consequat rhoncus. Maecenas at erat quis turpis convallis convallis. Mauris vitae lectus nec ipsum aliquam placerat. Sed ac quam semper, pretium leo ut, lacinia nulla. Nulla vitae nibh lectus.",
 			"is_locked": "true",
-			"image_url": "https://raw.githubusercontent.com/alejandrorey96/LoreJuego/main/data/images/characters/cornut.jpg?token=GHSAT0AAAAAABTGK4JNVTXK7WSSJYX47GSGYS6NQ6A"
+			"image_url": "https://raw.githubusercontent.com/alejandrorey96/GameLore/master/GameLore/data/images/characters/cornut.jpg"
 		},
 
 		{
@@ -16,7 +16,7 @@
 			"arena": "1",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus convallis mi nec commodo. Nulla eu magna convallis, pharetra nisi id, malesuada nunc. Quisque eu ipsum at nibh consequat rhoncus. Maecenas at erat quis turpis convallis convallis. Mauris vitae lectus nec ipsum aliquam placerat. Sed ac quam semper, pretium leo ut, lacinia nulla. Nulla vitae nibh lectus.",
 			"is_locked": "true",
-			"image_url": "https://raw.githubusercontent.com/alejandrorey96/LoreJuego/main/data/images/characters/isla.jpg?token=GHSAT0AAAAAABTGK4JN3HTEUI4MEPSSUTHCYS6NRFA"
+			"image_url": "https://raw.githubusercontent.com/alejandrorey96/GameLore/master/GameLore/data/images/characters/isla.jpg"
 		},
 
 		{
@@ -25,7 +25,7 @@
 			"arena": "1",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus convallis mi nec commodo. Nulla eu magna convallis, pharetra nisi id, malesuada nunc. Quisque eu ipsum at nibh consequat rhoncus. Maecenas at erat quis turpis convallis convallis. Mauris vitae lectus nec ipsum aliquam placerat. Sed ac quam semper, pretium leo ut, lacinia nulla. Nulla vitae nibh lectus.",
 			"in_locked": "true",
-			"image_url": "https://raw.githubusercontent.com/alejandrorey96/LoreJuego/main/data/images/characters/airstirke.jpg?token=GHSAT0AAAAAABTGK4JMWY5XAZ3KS7CRG5JSYS6NSAA"
+			"image_url": "https://raw.githubusercontent.com/alejandrorey96/GameLore/master/GameLore/data/images/characters/airstirke.jpgA"
 		},
 
 		{
@@ -34,7 +34,7 @@
 			"arena": "5",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus convallis mi nec commodo. Nulla eu magna convallis, pharetra nisi id, malesuada nunc. Quisque eu ipsum at nibh consequat rhoncus. Maecenas at erat quis turpis convallis convallis. Mauris vitae lectus nec ipsum aliquam placerat. Sed ac quam semper, pretium leo ut, lacinia nulla. Nulla vitae nibh lectus.",
 			"in_locked": "true",
-			"image_url": "https://raw.githubusercontent.com/alejandrorey96/LoreJuego/main/data/images/characters/dash.jpg?token=GHSAT0AAAAAABTGK4JN32ZUUJHBCOXOQWF6YS6NSJA"
+			"image_url": "https://raw.githubusercontent.com/alejandrorey96/GameLore/master/GameLore/data/images/characters/dash.jpg"
 		},
 
 		{
@@ -43,7 +43,7 @@
 			"arena": "2",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus convallis mi nec commodo. Nulla eu magna convallis, pharetra nisi id, malesuada nunc. Quisque eu ipsum at nibh consequat rhoncus. Maecenas at erat quis turpis convallis convallis. Mauris vitae lectus nec ipsum aliquam placerat. Sed ac quam semper, pretium leo ut, lacinia nulla. Nulla vitae nibh lectus.",
 			"in_locked": "true",
-			"image_url": "https://raw.githubusercontent.com/alejandrorey96/LoreJuego/main/data/images/characters/cannon.jpg?token=GHSAT0AAAAAABTGK4JMXP4GHLMWVJL3M7YYYS6NSPA"
+			"image_url": "https://raw.githubusercontent.com/alejandrorey96/GameLore/master/GameLore/data/images/characters/cannon.jpg"
 		},
 
 		{
@@ -52,7 +52,7 @@
 			"arena": "3",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus convallis mi nec commodo. Nulla eu magna convallis, pharetra nisi id, malesuada nunc. Quisque eu ipsum at nibh consequat rhoncus. Maecenas at erat quis turpis convallis convallis. Mauris vitae lectus nec ipsum aliquam placerat. Sed ac quam semper, pretium leo ut, lacinia nulla. Nulla vitae nibh lectus.",
 			"in_locked": "true",
-			"image_url": "https://raw.githubusercontent.com/alejandrorey96/LoreJuego/main/data/images/characters/droids.jpg?token=GHSAT0AAAAAABTGK4JM5LEN3MCBVHHYSFNSYS6NSXQ"
+			"image_url": "https://raw.githubusercontent.com/alejandrorey96/GameLore/master/GameLore/data/images/characters/droids.jpg"
 		},
 
 		{
@@ -61,7 +61,7 @@
 			"arena": "1",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus convallis mi nec commodo. Nulla eu magna convallis, pharetra nisi id, malesuada nunc. Quisque eu ipsum at nibh consequat rhoncus. Maecenas at erat quis turpis convallis convallis. Mauris vitae lectus nec ipsum aliquam placerat. Sed ac quam semper, pretium leo ut, lacinia nulla. Nulla vitae nibh lectus.",
 			"in_locked": "true",
-			"image_url": "https://raw.githubusercontent.com/alejandrorey96/LoreJuego/main/data/images/characters/miles.jpg?token=GHSAT0AAAAAABTGK4JMLUFRBAR44B4UPFWYYS6NT6Q"
+			"image_url": "https://raw.githubusercontent.com/alejandrorey96/GameLore/master/GameLore/data/images/characters/miles.jpg"
 		},
 
 		{
@@ -70,7 +70,7 @@
 			"arena": "1",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus convallis mi nec commodo. Nulla eu magna convallis, pharetra nisi id, malesuada nunc. Quisque eu ipsum at nibh consequat rhoncus. Maecenas at erat quis turpis convallis convallis. Mauris vitae lectus nec ipsum aliquam placerat. Sed ac quam semper, pretium leo ut, lacinia nulla. Nulla vitae nibh lectus.",
 			"in_locked": "true",
-			"image_url": "https://raw.githubusercontent.com/alejandrorey96/LoreJuego/main/data/images/characters/hwacha.jpg?token=GHSAT0AAAAAABTGK4JMVVDZP2476QXLCPQGYS6NUGA"
+			"image_url": "https://raw.githubusercontent.com/alejandrorey96/GameLore/master/GameLore/data/images/characters/hwacha.jpg"
 		},
 
 		{
@@ -79,7 +79,7 @@
 			"arena": "3",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus convallis mi nec commodo. Nulla eu magna convallis, pharetra nisi id, malesuada nunc. Quisque eu ipsum at nibh consequat rhoncus. Maecenas at erat quis turpis convallis convallis. Mauris vitae lectus nec ipsum aliquam placerat. Sed ac quam semper, pretium leo ut, lacinia nulla. Nulla vitae nibh lectus.",
 			"in_locked": "true",
-			"image_url": "https://raw.githubusercontent.com/alejandrorey96/LoreJuego/main/data/images/characters/tucan.jpg?token=GHSAT0AAAAAABTGK4JMIVS47LTQ4ADNSUQ2YS6NVVQ"
+			"image_url": "https://raw.githubusercontent.com/alejandrorey96/GameLore/master/GameLore/data/images/characters/tucan.jpg"
 		},
 
 		{
@@ -88,7 +88,7 @@
 			"arena": "2",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus convallis mi nec commodo. Nulla eu magna convallis, pharetra nisi id, malesuada nunc. Quisque eu ipsum at nibh consequat rhoncus. Maecenas at erat quis turpis convallis convallis. Mauris vitae lectus nec ipsum aliquam placerat. Sed ac quam semper, pretium leo ut, lacinia nulla. Nulla vitae nibh lectus.",
 			"in_locked": "true",
-			"image_url": "https://raw.githubusercontent.com/alejandrorey96/LoreJuego/main/data/images/characters/skelie.jpg?token=GHSAT0AAAAAABTGK4JMCVENAJX7SBPPKI6MYS6NV2Q"
+			"image_url": "https://raw.githubusercontent.com/alejandrorey96/GameLore/master/GameLore/data/images/characters/skelie.jpg"
 		}
 	]
 }

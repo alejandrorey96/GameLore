@@ -6,7 +6,7 @@
 			"name": "HP",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus convallis mi nec commodo. Nulla eu magna convallis, pharetra nisi id, malesuada nunc. Quisque eu ipsum at nibh consequat rhoncus. Maecenas at erat quis turpis convallis convallis. Mauris vitae lectus nec ipsum aliquam placerat. Sed ac quam semper, pretium leo ut, lacinia nulla. Nulla vitae nibh lectus.",
 			"is_locked": "true",
-			"image_url": "https://raw.githubusercontent.com/alejandrorey96/LoreJuego/main/data/images/objects/hp.jpg?token=GHSAT0AAAAAABTGK4JMOGXZP3NURGID6MNKYS6N4HQ"
+			"image_url": "https://raw.githubusercontent.com/alejandrorey96/GameLore/master/GameLore/data/images/objects/hp.jpg"
 		},
 
 		{
@@ -14,7 +14,7 @@
 			"name": "Attack",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus convallis mi nec commodo. Nulla eu magna convallis, pharetra nisi id, malesuada nunc. Quisque eu ipsum at nibh consequat rhoncus. Maecenas at erat quis turpis convallis convallis. Mauris vitae lectus nec ipsum aliquam placerat. Sed ac quam semper, pretium leo ut, lacinia nulla. Nulla vitae nibh lectus.",
 			"is_locked": "true",
-			"image_url": "https://raw.githubusercontent.com/alejandrorey96/LoreJuego/main/data/images/objects/attk.jpg?token=GHSAT0AAAAAABTGK4JMXNW34776UF6YTLOYYS6N37Q"
+			"image_url": "https://raw.githubusercontent.com/alejandrorey96/GameLore/master/GameLore/data/images/objects/attk.jpg"
 		},
 
 		{
@@ -22,7 +22,7 @@
 			"name": "Defense",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus convallis mi nec commodo. Nulla eu magna convallis, pharetra nisi id, malesuada nunc. Quisque eu ipsum at nibh consequat rhoncus. Maecenas at erat quis turpis convallis convallis. Mauris vitae lectus nec ipsum aliquam placerat. Sed ac quam semper, pretium leo ut, lacinia nulla. Nulla vitae nibh lectus.",
 			"in_locked": "true",
-			"image_url": "https://raw.githubusercontent.com/alejandrorey96/LoreJuego/main/data/images/objects/def.jpg?token=GHSAT0AAAAAABTGK4JNGZHMBOLPS6BXXBOWYS6N4OQ"
+			"image_url": "https://raw.githubusercontent.com/alejandrorey96/GameLore/master/GameLore/data/images/objects/def.jpg"
 		},
 
 		{
@@ -30,7 +30,7 @@
 			"name": "Cooldown",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus convallis mi nec commodo. Nulla eu magna convallis, pharetra nisi id, malesuada nunc. Quisque eu ipsum at nibh consequat rhoncus. Maecenas at erat quis turpis convallis convallis. Mauris vitae lectus nec ipsum aliquam placerat. Sed ac quam semper, pretium leo ut, lacinia nulla. Nulla vitae nibh lectus.",
 			"in_locked": "true",
-			"image_url": "https://raw.githubusercontent.com/alejandrorey96/LoreJuego/main/data/images/objects/cooldown.jpg?token=GHSAT0AAAAAABTGK4JNKQJV7ZVBCADLT7HWYS6N4WA"
+			"image_url": "https://raw.githubusercontent.com/alejandrorey96/GameLore/master/GameLore/data/images/objects/cooldown.jpg"
 		},
 
 		{
@@ -38,7 +38,7 @@
 			"name": "Range",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus convallis mi nec commodo. Nulla eu magna convallis, pharetra nisi id, malesuada nunc. Quisque eu ipsum at nibh consequat rhoncus. Maecenas at erat quis turpis convallis convallis. Mauris vitae lectus nec ipsum aliquam placerat. Sed ac quam semper, pretium leo ut, lacinia nulla. Nulla vitae nibh lectus.",
 			"in_locked": "true",
-			"image_url": "https://raw.githubusercontent.com/alejandrorey96/LoreJuego/main/data/images/objects/range.jpg?token=GHSAT0AAAAAABTGK4JNEPLECREJQDFR4GLKYS6N44Q"
+			"image_url": "https://raw.githubusercontent.com/alejandrorey96/GameLore/master/GameLore/data/images/objects/range.jpg"
 		},
 
 		{
@@ -46,7 +46,7 @@
 			"name": "Cost",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus convallis mi nec commodo. Nulla eu magna convallis, pharetra nisi id, malesuada nunc. Quisque eu ipsum at nibh consequat rhoncus. Maecenas at erat quis turpis convallis convallis. Mauris vitae lectus nec ipsum aliquam placerat. Sed ac quam semper, pretium leo ut, lacinia nulla. Nulla vitae nibh lectus.",
 			"in_locked": "true",
-			"image_url": "https://raw.githubusercontent.com/alejandrorey96/LoreJuego/main/data/images/objects/cost.jpg?token=GHSAT0AAAAAABTGK4JN4D22QAM752ID3ZKKYS6N5EA"
+			"image_url": "https://raw.githubusercontent.com/alejandrorey96/GameLore/master/GameLore/data/images/objects/cost.jpg"
 		},
 
 		{
@@ -54,7 +54,7 @@
 			"name": "Boots",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus convallis mi nec commodo. Nulla eu magna convallis, pharetra nisi id, malesuada nunc. Quisque eu ipsum at nibh consequat rhoncus. Maecenas at erat quis turpis convallis convallis. Mauris vitae lectus nec ipsum aliquam placerat. Sed ac quam semper, pretium leo ut, lacinia nulla. Nulla vitae nibh lectus.",
 			"in_locked": "true",
-			"image_url": "https://raw.githubusercontent.com/alejandrorey96/LoreJuego/main/data/images/objects/boots.jpg?token=GHSAT0AAAAAABTGK4JNKO55Y7QRA556D5MYYS6N5KQ"
+			"image_url": "https://raw.githubusercontent.com/alejandrorey96/GameLore/master/GameLore/data/images/objects/boots.jpg"
 		}
 	]
 }
