@@ -1,9 +1,13 @@
 package com.example.gamelore;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -17,50 +21,54 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class MainActivity extends AppCompatActivity {
 
     private String url = "https://raw.githubusercontent.com/alejandrorey96/GameLore/master/GameLore/data/categories.json";
-    private TextView mTextViewResult;
-    private RequestQueue mQueue;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mTextViewResult = findViewById(R.id.text_view_result);
-        mQueue = Volley.newRequestQueue(this);
+        RecyclerView recyclerView = findViewById(R.id.recycler_view);
+        Activity activity = this;
 
 
-        JsonObjectRequest categoryRequest = new JsonObjectRequest(
+        JsonArrayRequest categoryRequest = new JsonArrayRequest(
                 Request.Method.GET,
                 url,
                 null,
-                new Response.Listener<JSONObject>() {
+                new Response.Listener<JSONArray>() {
                     @Override
-                    public void onResponse(JSONObject response) {
-                        try {
-                            JSONArray jsonArray = response.getJSONArray("categories");
-                            for(int i = 0; i<jsonArray.length();i++) {
+                    public void onResponse(JSONArray response) {
 
-                                JSONObject category = jsonArray.getJSONObject(i);
-                                String name = category.getString("name");
-                                String id = category.getString("id");
+                        List<SimpleCategory> categoryList = new ArrayList<>();
+                        for(int i = 0; i<response.length(); i++) {
 
-                                mTextViewResult.append(name + "\n" + id + "\n\n");
-                            }
-                        }catch (JSONException e){
+                            try {
+                                JSONObject category = response.getJSONObject(i);
+                                SimpleCategory data = new SimpleCategory(category);
+                                categoryList.add(data);
+                            }catch (JSONException e){
                                 e.printStackTrace();
+                            }
                         }
+                        MenuRecyclerViewAdapter adapter = new MenuRecyclerViewAdapter(categoryList, activity);
+                        recyclerView.setAdapter(adapter);
+                        recyclerView.setLayoutManager(new LinearLayoutManager(activity));
                     }
                 },
                 new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
-                        error.printStackTrace();
+                        Toast.makeText(activity, "Error", Toast.LENGTH_SHORT).show();
                     }
-                }
-        );
-        mQueue.add(categoryRequest);
+                });
+        RequestQueue queue = Volley.newRequestQueue(this);
+        queue.add(categoryRequest);
     }
 }
