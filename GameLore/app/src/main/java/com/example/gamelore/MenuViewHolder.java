@@ -18,7 +18,5 @@ public class MenuViewHolder extends RecyclerView.ViewHolder {
 
     public void showData(SimpleCategory data, Activity activity){
         textView.setText(data.getName());
-        textView.setText(data.getId());
     }
-
 }

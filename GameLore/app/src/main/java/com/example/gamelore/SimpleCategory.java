@@ -5,13 +5,13 @@ import org.json.JSONObject;
 
 
 public class SimpleCategory {
-    private String id;
     private String name;
+    private String id;
 
     public SimpleCategory(JSONObject objectJson){
         try {
-            this.id = objectJson.getString("id");
             this.name= objectJson.getString("name");
+            this.id = objectJson.getString("id");
         } catch (JSONException e) {
             e.printStackTrace();
         }

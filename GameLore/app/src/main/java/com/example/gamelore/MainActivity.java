@@ -38,24 +38,28 @@ public class MainActivity extends AppCompatActivity {
         Activity activity = this;
 
 
-        JsonArrayRequest categoryRequest = new JsonArrayRequest(
+        JsonObjectRequest categoryRequest = new JsonObjectRequest(
                 Request.Method.GET,
                 url,
                 null,
-                new Response.Listener<JSONArray>() {
+                new Response.Listener<JSONObject>() {
                     @Override
-                    public void onResponse(JSONArray response) {
+                    public void onResponse(JSONObject response) {
 
-                        List<SimpleCategory> categoryList = new ArrayList<>();
-                        for(int i = 0; i<response.length(); i++) {
+                        List<SimpleCategory> categoryList = null;
+                        try {
+                            JSONArray categoryArray = response.getJSONArray("categories");
+                            categoryList = new ArrayList<>();
 
-                            try {
-                                JSONObject category = response.getJSONObject(i);
+                            for (int i = 0; i < categoryArray.length(); i++) {
+
+                                JSONObject category = categoryArray.getJSONObject(i);
                                 SimpleCategory data = new SimpleCategory(category);
                                 categoryList.add(data);
-                            }catch (JSONException e){
-                                e.printStackTrace();
                             }
+
+                        } catch (JSONException e) {
+                            e.printStackTrace();
                         }
                         MenuRecyclerViewAdapter adapter = new MenuRecyclerViewAdapter(categoryList, activity);
                         recyclerView.setAdapter(adapter);
