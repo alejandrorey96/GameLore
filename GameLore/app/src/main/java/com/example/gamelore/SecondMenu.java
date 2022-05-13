@@ -26,32 +26,35 @@ import java.util.List;
 
 public class SecondMenu extends AppCompatActivity {
 
-    private final String planetURL = "https://raw.githubusercontent.com/alejandrorey96/GameLore/master/GameLore/data/categories/planets.json";
+    /*private final String planetURL = "https://raw.githubusercontent.com/alejandrorey96/GameLore/master/GameLore/data/categories/planets.json";
     private final String characterURL = "https://raw.githubusercontent.com/alejandrorey96/GameLore/master/GameLore/data/categories/characters.json";
     private final String objectURL = "https://raw.githubusercontent.com/alejandrorey96/GameLore/master/GameLore/data/categories/objects.json";
-    private final String abilityURL = "https://github.com/alejandrorey96/GameLore/blob/master/GameLore/data/categories/abilities.json";
-    private String url = "";
+    private final String abilityURL = "https://raw.githubusercontent.com/alejandrorey96/GameLore/master/GameLore/data/categories/abilities.json";
+    private String url = "";*/
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second_menu);
 
-        RecyclerView recyclerView = findViewById(R.id.recycler_view);
+        RecyclerView recyclerView = findViewById(R.id.recycler_view2);
         Activity activity = this;
 
         String valor = getIntent().getExtras().getString("id");
+        Toast.makeText(activity, valor, Toast.LENGTH_SHORT).show();
 
-        switch (valor){
-            case "planet": url=planetURL;
+        String url = "https://raw.githubusercontent.com/alejandrorey96/GameLore/master/GameLore/data/categories/"+valor+".json";
+
+        /*switch (valor){
+            case "planets": url=planetURL;
                 break;
-            case "character": url=characterURL;
+            case "characters": url=characterURL;
                 break;
-            case "object": url=objectURL;
+            case "objects": url=objectURL;
                 break;
-            case "ability": url=abilityURL;
+            case "abilities": url=abilityURL;
                 break;
-        }
+        }*/
 
         JsonObjectRequest categoryRequest = new JsonObjectRequest(
                 Request.Method.GET,
@@ -61,7 +64,7 @@ public class SecondMenu extends AppCompatActivity {
                     @Override
                     public void onResponse(JSONObject response) {
 
-                        List<SimpleCategory> categoryList = null;
+                        List<CompleteCategory> categoryList = null;
                         try {
                             JSONArray categoryArray = response.getJSONArray(valor);
                             categoryList = new ArrayList<>();
@@ -69,13 +72,13 @@ public class SecondMenu extends AppCompatActivity {
                             for (int i = 0; i < categoryArray.length(); i++) {
 
                                 JSONObject object = categoryArray.getJSONObject(i);
-                                SimpleCategory data = new SimpleCategory(object);
+                                CompleteCategory data = new CompleteCategory(object);
                                 categoryList.add(data);
                             }
                         } catch (JSONException e) {
                             e.printStackTrace();
                         }
-                        MenuRecyclerViewAdapter adapter = new MenuRecyclerViewAdapter(categoryList, activity);
+                        SecondRecyclerViewAdapter adapter = new SecondRecyclerViewAdapter(categoryList, activity);
                         recyclerView.setAdapter(adapter);
                         recyclerView.setLayoutManager(new LinearLayoutManager(activity));
                     }
