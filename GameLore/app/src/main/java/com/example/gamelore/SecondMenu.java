@@ -5,10 +5,12 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Toast;
 
 import com.android.volley.Request;
+import com.android.volley.Request.Method;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
@@ -22,19 +24,34 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity {
+public class SecondMenu extends AppCompatActivity {
 
-    private final String url = "https://raw.githubusercontent.com/alejandrorey96/GameLore/master/GameLore/data/categories.json";
-
+    private final String planetURL = "https://raw.githubusercontent.com/alejandrorey96/GameLore/master/GameLore/data/categories/planets.json";
+    private final String characterURL = "https://raw.githubusercontent.com/alejandrorey96/GameLore/master/GameLore/data/categories/characters.json";
+    private final String objectURL = "https://raw.githubusercontent.com/alejandrorey96/GameLore/master/GameLore/data/categories/objects.json";
+    private final String abilityURL = "https://github.com/alejandrorey96/GameLore/blob/master/GameLore/data/categories/abilities.json";
+    private String url = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_second_menu);
 
         RecyclerView recyclerView = findViewById(R.id.recycler_view);
         Activity activity = this;
 
+        String valor = getIntent().getExtras().getString("id");
+
+        switch (valor){
+            case "planet": url=planetURL;
+                break;
+            case "character": url=characterURL;
+                break;
+            case "object": url=objectURL;
+                break;
+            case "ability": url=abilityURL;
+                break;
+        }
 
         JsonObjectRequest categoryRequest = new JsonObjectRequest(
                 Request.Method.GET,
@@ -46,16 +63,15 @@ public class MainActivity extends AppCompatActivity {
 
                         List<SimpleCategory> categoryList = null;
                         try {
-                            JSONArray categoryArray = response.getJSONArray("categories");
+                            JSONArray categoryArray = response.getJSONArray(valor);
                             categoryList = new ArrayList<>();
 
                             for (int i = 0; i < categoryArray.length(); i++) {
 
-                                JSONObject category = categoryArray.getJSONObject(i);
-                                SimpleCategory data = new SimpleCategory(category);
+                                JSONObject object = categoryArray.getJSONObject(i);
+                                SimpleCategory data = new SimpleCategory(object);
                                 categoryList.add(data);
                             }
-
                         } catch (JSONException e) {
                             e.printStackTrace();
                         }
@@ -68,6 +84,7 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onErrorResponse(VolleyError error) {
                         Toast.makeText(activity, "Error", Toast.LENGTH_SHORT).show();
+
                     }
                 });
         RequestQueue queue = Volley.newRequestQueue(this);

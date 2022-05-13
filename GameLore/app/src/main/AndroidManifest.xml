@@ -12,16 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GameLore">
         <activity
-            android:name=".AbilityMenu"
-            android:exported="false" />
-        <activity
-            android:name=".ObjectMenu"
-            android:exported="false" />
-        <activity
-            android:name=".CharacterMenu"
-            android:exported="false" />
-        <activity
-            android:name=".PlanetMenu"
+            android:name=".SecondMenu"
             android:exported="false" />
         <activity
             android:name=".MenuViewHolder"
