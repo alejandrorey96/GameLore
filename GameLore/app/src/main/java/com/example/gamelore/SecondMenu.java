@@ -26,11 +26,11 @@ import java.util.List;
 
 public class SecondMenu extends AppCompatActivity {
 
-    /*private final String planetURL = "https://raw.githubusercontent.com/alejandrorey96/GameLore/master/GameLore/data/categories/planets.json";
+    private final String planetURL = "https://raw.githubusercontent.com/alejandrorey96/GameLore/master/GameLore/data/categories/planets.json";
     private final String characterURL = "https://raw.githubusercontent.com/alejandrorey96/GameLore/master/GameLore/data/categories/characters.json";
     private final String objectURL = "https://raw.githubusercontent.com/alejandrorey96/GameLore/master/GameLore/data/categories/objects.json";
     private final String abilityURL = "https://raw.githubusercontent.com/alejandrorey96/GameLore/master/GameLore/data/categories/abilities.json";
-    private String url = "";*/
+    private String url = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,9 +43,9 @@ public class SecondMenu extends AppCompatActivity {
         String valor = getIntent().getExtras().getString("id");
         Toast.makeText(activity, valor, Toast.LENGTH_SHORT).show();
 
-        String url = "https://raw.githubusercontent.com/alejandrorey96/GameLore/master/GameLore/data/categories/"+valor+".json";
+        //String url = "https://raw.githubusercontent.com/alejandrorey96/GameLore/master/GameLore/data/categories/"+valor+".json";
 
-        /*switch (valor){
+        switch (valor){
             case "planets": url=planetURL;
                 break;
             case "characters": url=characterURL;
@@ -54,7 +54,7 @@ public class SecondMenu extends AppCompatActivity {
                 break;
             case "abilities": url=abilityURL;
                 break;
-        }*/
+        }
 
         JsonObjectRequest categoryRequest = new JsonObjectRequest(
                 Request.Method.GET,
