@@ -20,8 +20,7 @@
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="@id/second_image_view"
         app:layout_constraintBottom_toBottomOf="@id/second_image_view"
-        app:layout_constraintStart_toEndOf="@id/second_image_view"
-        app:layout_constraintEnd_toEndOf="@id/second_image_view"/>
+        app:layout_constraintStart_toEndOf="@id/second_image_view"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

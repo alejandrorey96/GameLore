@@ -20,8 +20,16 @@ public class CompleteCategory {
         this.description = objectJason.getString("description");
         this.is_locked = objectJason.getBoolean("is_locked");
         this.image_url = objectJason.getString("image_url");
-        this.character = objectJason.getString("character");
-        this.arena = objectJason.getString("arena");
+        if(character!= null){
+            this.character = objectJason.getString("character");
+        }else {
+            this.character = "";
+        }
+        if(arena!= null) {
+            this.arena = objectJason.getString("arena");
+        }else {
+            this.arena = "";
+        }
     }
 
     public String getId() {
