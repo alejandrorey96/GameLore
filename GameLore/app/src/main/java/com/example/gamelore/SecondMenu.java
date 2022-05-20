@@ -38,8 +38,6 @@ public class SecondMenu extends AppCompatActivity {
 
         String url = "https://raw.githubusercontent.com/alejandrorey96/GameLore/master/GameLore/data/categories/"+valor+".json";
 
-        Toast.makeText(activity, url, Toast.LENGTH_SHORT).show();
-
         JsonObjectRequest categoryRequest = new JsonObjectRequest(
                 Request.Method.GET,
                 url,

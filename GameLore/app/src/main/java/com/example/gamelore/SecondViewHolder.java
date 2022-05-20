@@ -32,18 +32,20 @@ public class SecondViewHolder extends RecyclerView.ViewHolder {
     public void showData(CompleteCategory data, Activity activity){
         textView.setText(data.getName());
         cancelPreviousImageDownloadIfAny();
-        loadImage(data.getImage_url(),this.imageView,activity);
+        GetImage image = new GetImage();
+        image.loadImage(data.getImage_url(),this.imageView,activity);
         imageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Bitmap image = ((BitmapDrawable) imageView.getDrawable()).getBitmap();
+                //Bitmap image = ((BitmapDrawable) imageView.getDrawable()).getBitmap();
                 Intent intent= new Intent (activity,DetailActivity.class);
                 intent.putExtra("name", data.getName());
+                intent.putExtra("image_url",data.getImage_url());
+                //intent.putExtra("image",image);
                 intent.putExtra("description", data.getDescription());
                 intent.putExtra("arena", data.getArena());
                 intent.putExtra("character", data.getCharacter());
                 intent.putExtra("is_locked", data.getIs_locked());
-                intent.putExtra("image_url", data.getImage_url());
                 activity.startActivity(intent);
             }
         });
@@ -52,7 +54,7 @@ public class SecondViewHolder extends RecyclerView.ViewHolder {
     private void cancelPreviousImageDownloadIfAny() {
     }
 
-    private void loadImage(String img_url, ImageView imageView, Activity activity) {
+    /*private void loadImage(String img_url, ImageView imageView, Activity activity) {
         Thread thread = new Thread(new Runnable() {
             @Override
             public void run() {
@@ -79,5 +81,5 @@ public class SecondViewHolder extends RecyclerView.ViewHolder {
             e.printStackTrace();
             return null;
         }
-    }
+    }*/
 }
