@@ -24,7 +24,7 @@
 			"name": "Airstrike",
 			"arena": "1",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus convallis mi nec commodo. Nulla eu magna convallis, pharetra nisi id, malesuada nunc. Quisque eu ipsum at nibh consequat rhoncus. Maecenas at erat quis turpis convallis convallis. Mauris vitae lectus nec ipsum aliquam placerat. Sed ac quam semper, pretium leo ut, lacinia nulla. Nulla vitae nibh lectus.",
-			"in_locked": "true",
+			"is_locked": "true",
 			"image_url": "https://raw.githubusercontent.com/alejandrorey96/GameLore/master/GameLore/data/images/characters/airstirke.jpgA"
 		},
 
@@ -33,7 +33,7 @@
 			"name": "Dash",
 			"arena": "5",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus convallis mi nec commodo. Nulla eu magna convallis, pharetra nisi id, malesuada nunc. Quisque eu ipsum at nibh consequat rhoncus. Maecenas at erat quis turpis convallis convallis. Mauris vitae lectus nec ipsum aliquam placerat. Sed ac quam semper, pretium leo ut, lacinia nulla. Nulla vitae nibh lectus.",
-			"in_locked": "true",
+			"is_locked": "true",
 			"image_url": "https://raw.githubusercontent.com/alejandrorey96/GameLore/master/GameLore/data/images/characters/dash.jpg"
 		},
 
@@ -42,7 +42,7 @@
 			"name": "Cannon",
 			"arena": "2",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus convallis mi nec commodo. Nulla eu magna convallis, pharetra nisi id, malesuada nunc. Quisque eu ipsum at nibh consequat rhoncus. Maecenas at erat quis turpis convallis convallis. Mauris vitae lectus nec ipsum aliquam placerat. Sed ac quam semper, pretium leo ut, lacinia nulla. Nulla vitae nibh lectus.",
-			"in_locked": "true",
+			"is_locked": "true",
 			"image_url": "https://raw.githubusercontent.com/alejandrorey96/GameLore/master/GameLore/data/images/characters/cannon.jpg"
 		},
 
@@ -51,7 +51,7 @@
 			"name": "Droids",
 			"arena": "3",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus convallis mi nec commodo. Nulla eu magna convallis, pharetra nisi id, malesuada nunc. Quisque eu ipsum at nibh consequat rhoncus. Maecenas at erat quis turpis convallis convallis. Mauris vitae lectus nec ipsum aliquam placerat. Sed ac quam semper, pretium leo ut, lacinia nulla. Nulla vitae nibh lectus.",
-			"in_locked": "true",
+			"is_locked": "true",
 			"image_url": "https://raw.githubusercontent.com/alejandrorey96/GameLore/master/GameLore/data/images/characters/droids.jpg"
 		},
 
@@ -60,7 +60,7 @@
 			"name": "Miles",
 			"arena": "1",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus convallis mi nec commodo. Nulla eu magna convallis, pharetra nisi id, malesuada nunc. Quisque eu ipsum at nibh consequat rhoncus. Maecenas at erat quis turpis convallis convallis. Mauris vitae lectus nec ipsum aliquam placerat. Sed ac quam semper, pretium leo ut, lacinia nulla. Nulla vitae nibh lectus.",
-			"in_locked": "true",
+			"is_locked": "true",
 			"image_url": "https://raw.githubusercontent.com/alejandrorey96/GameLore/master/GameLore/data/images/characters/miles.jpg"
 		},
 
@@ -69,7 +69,7 @@
 			"name": "Hwacha",
 			"arena": "1",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus convallis mi nec commodo. Nulla eu magna convallis, pharetra nisi id, malesuada nunc. Quisque eu ipsum at nibh consequat rhoncus. Maecenas at erat quis turpis convallis convallis. Mauris vitae lectus nec ipsum aliquam placerat. Sed ac quam semper, pretium leo ut, lacinia nulla. Nulla vitae nibh lectus.",
-			"in_locked": "true",
+			"is_locked": "true",
 			"image_url": "https://raw.githubusercontent.com/alejandrorey96/GameLore/master/GameLore/data/images/characters/hwacha.jpg"
 		},
 
@@ -78,7 +78,7 @@
 			"name": "Tucan",
 			"arena": "3",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus convallis mi nec commodo. Nulla eu magna convallis, pharetra nisi id, malesuada nunc. Quisque eu ipsum at nibh consequat rhoncus. Maecenas at erat quis turpis convallis convallis. Mauris vitae lectus nec ipsum aliquam placerat. Sed ac quam semper, pretium leo ut, lacinia nulla. Nulla vitae nibh lectus.",
-			"in_locked": "true",
+			"is_locked": "true",
 			"image_url": "https://raw.githubusercontent.com/alejandrorey96/GameLore/master/GameLore/data/images/characters/tucan.jpg"
 		},
 
@@ -87,7 +87,7 @@
 			"name": "Skelie",
 			"arena": "2",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus convallis mi nec commodo. Nulla eu magna convallis, pharetra nisi id, malesuada nunc. Quisque eu ipsum at nibh consequat rhoncus. Maecenas at erat quis turpis convallis convallis. Mauris vitae lectus nec ipsum aliquam placerat. Sed ac quam semper, pretium leo ut, lacinia nulla. Nulla vitae nibh lectus.",
-			"in_locked": "true",
+			"is_locked": "true",
 			"image_url": "https://raw.githubusercontent.com/alejandrorey96/GameLore/master/GameLore/data/images/characters/skelie.jpg"
 		}
 	]

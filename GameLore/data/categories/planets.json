@@ -21,7 +21,7 @@
 			"id": "3",
 			"name": "Ocean",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus convallis mi nec commodo. Nulla eu magna convallis, pharetra nisi id, malesuada nunc. Quisque eu ipsum at nibh consequat rhoncus. Maecenas at erat quis turpis convallis convallis. Mauris vitae lectus nec ipsum aliquam placerat. Sed ac quam semper, pretium leo ut, lacinia nulla. Nulla vitae nibh lectus.",
-			"in_locked": "true",
+			"is_locked": "true",
 			"image_url": "https://raw.githubusercontent.com/alejandrorey96/GameLore/master/GameLore/data/images/planets/ocean.jpg"
 		},
 
@@ -29,7 +29,7 @@
 			"id": "4",
 			"name": "Space",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus convallis mi nec commodo. Nulla eu magna convallis, pharetra nisi id, malesuada nunc. Quisque eu ipsum at nibh consequat rhoncus. Maecenas at erat quis turpis convallis convallis. Mauris vitae lectus nec ipsum aliquam placerat. Sed ac quam semper, pretium leo ut, lacinia nulla. Nulla vitae nibh lectus.",
-			"in_locked": "true",
+			"is_locked": "true",
 			"image_url": "https://raw.githubusercontent.com/alejandrorey96/GameLore/master/GameLore/data/images/planets/space.jpg"
 		},
 
@@ -37,7 +37,7 @@
 			"id": "5",
 			"name": "Blade",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus convallis mi nec commodo. Nulla eu magna convallis, pharetra nisi id, malesuada nunc. Quisque eu ipsum at nibh consequat rhoncus. Maecenas at erat quis turpis convallis convallis. Mauris vitae lectus nec ipsum aliquam placerat. Sed ac quam semper, pretium leo ut, lacinia nulla. Nulla vitae nibh lectus.",
-			"in_locked": "true",
+			"is_locked": "true",
 			"image_url": "https://raw.githubusercontent.com/alejandrorey96/GameLore/master/GameLore/data/images/planets/blade.jpg"
 		},
 
@@ -45,7 +45,7 @@
 			"id": "6",
 			"name": "Rythm",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus convallis mi nec commodo. Nulla eu magna convallis, pharetra nisi id, malesuada nunc. Quisque eu ipsum at nibh consequat rhoncus. Maecenas at erat quis turpis convallis convallis. Mauris vitae lectus nec ipsum aliquam placerat. Sed ac quam semper, pretium leo ut, lacinia nulla. Nulla vitae nibh lectus.",
-			"in_locked": "true",
+			"is_locked": "true",
 			"image_url": "https://raw.githubusercontent.com/alejandrorey96/GameLore/master/GameLore/data/images/planets/rythm.jpg"
 		},
 
@@ -53,7 +53,7 @@
 			"id": "7",
 			"name": "Jungle",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus convallis mi nec commodo. Nulla eu magna convallis, pharetra nisi id, malesuada nunc. Quisque eu ipsum at nibh consequat rhoncus. Maecenas at erat quis turpis convallis convallis. Mauris vitae lectus nec ipsum aliquam placerat. Sed ac quam semper, pretium leo ut, lacinia nulla. Nulla vitae nibh lectus.",
-			"in_locked": "true",
+			"is_locked": "true",
 			"image_url": "https://raw.githubusercontent.com/alejandrorey96/GameLore/master/GameLore/data/images/planets/jungle.jpg"
 		},
 
@@ -61,7 +61,7 @@
 			"id": "8",
 			"name": "Sentient",
 			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rhoncus convallis mi nec commodo. Nulla eu magna convallis, pharetra nisi id, malesuada nunc. Quisque eu ipsum at nibh consequat rhoncus. Maecenas at erat quis turpis convallis convallis. Mauris vitae lectus nec ipsum aliquam placerat. Sed ac quam semper, pretium leo ut, lacinia nulla. Nulla vitae nibh lectus.",
-			"in_locked": "true",
+			"is_locked": "true",
 			"image_url": "https://raw.githubusercontent.com/alejandrorey96/GameLore/master/GameLore/data/images/planets/sentient.jpg"
 		}
 	]
