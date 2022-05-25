@@ -9,7 +9,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class DetailActivity extends AppCompatActivity {
+public class DetailActivity extends MenuSwitch {
 
     AppCompatActivity activity = new AppCompatActivity();
 
@@ -18,7 +18,6 @@ public class DetailActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
         String vName = getIntent().getExtras().getString("name");
-        //Bitmap vImage = getIntent().getParcelableExtra("image");
         String vImage = getIntent().getExtras().getString("image_url");
         String vDescription = getIntent().getExtras().getString("description");
         String vArena = getIntent().getExtras().getString("arena");

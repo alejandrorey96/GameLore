@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/planets"
+        android:icon="@drawable/ic_planets"
+        android:title="Planets"
+        app:showAsAction="never"/>
+    <item android:id="@+id/characters"
+        android:icon="@drawable/ic_characters"
+        android:title="Characters"
+        app:showAsAction="never"/>
+    <item android:id="@+id/objects"
+        android:icon="@drawable/ic_objects"
+        android:title="Objects"
+        app:showAsAction="never"/>
+    <item android:id="@+id/abilities"
+        android:icon="@drawable/ic_abilities"
+        android:title="Abilities"
+        app:showAsAction="never"/>
+</menu>
