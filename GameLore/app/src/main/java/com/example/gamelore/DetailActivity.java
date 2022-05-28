@@ -33,9 +33,9 @@ public class DetailActivity extends MenuSwitch {
             TextView description = findViewById(R.id.description);
             description.setText(vDescription);
             TextView other = findViewById(R.id.other);
-            if (vArena != "") {
+            if (vArena.length() != 0) {
                 other.setText(vArena);
-            } else if (vCharacter != "") {
+            } else if (vCharacter.length() != 0) {
                 other.setText(vCharacter);
             } else {
                 other.setText("");
